@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Openai from "./Download dic CHATgtpa/Openai";
+import Authentication from "./Firebase/Authentication";
+import PopUp from "./popUp/PopUp";
+// import Main from "./FAQ/Main";
+// import Dropdown from "./dropdown/Dropdown";
+// import Funmi from "./Funmi/Funmi";
+// import Tweet from "./Funmi/TweetButton/Tweet";
+// import Downlaod from "./DownloadDiv/Downlaod";
+// import MemeApp from "./memeApp/MemeApp";
+// import Api from "./API/Api";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>  
+        {/* <Dropdown /> */}
+      {/* <Main />
+  
+      <Funmi />
+      <Tweet /> */}
+      {/* <Downlaod/> */}
+      {/* <Api/> */}
+      {/* <MemeApp/> */}
+      {/* <Openai/>
+      <PopUp/> */}
+      <Authentication/>
     </div>
   );
 }

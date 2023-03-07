@@ -1,0 +1,3 @@
+In this example, the useEffect hook is used to add or remove the popup-open class from the body element based on the state of the isOpen variable. When the pop-up is opened, the popup-open class is added, which sets the background color of the body element to the desired color. When the pop-up is closed, the class is removed, and the background color returns to its original state.
+
+Note that this approach modifies the styles of the entire body element, so if you have other components or elements that also rely on the background color, you may need to adjust the CSS class and/or use a more targeted approach.
